@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="quiz-container animate__animated animate__fadeInDown">
+        <div class="quiz-header">
+        <h2 id="question">Question Test</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" value="a">
+                    <label id="a_text">Answer</label>
+                </li>  
+                <li>   
+                    <input type="radio" name="answer" value="b">
+                    <label id="b_text">Answer</label>
+                </li> 
+                <li>  
+                    <input type="radio" name="answer" value="c">
+                    <label id="c_text">Answer</label>
+                </li>
+                <li>  
+                    <input type="radio" name="answer" value="d">
+                    <label id="d_text">Answer</label>
+                </li>
+            </ul>
+        </div>
+        <button id="submit">Submit</button>
+    </div>
+    <div class="scoreContainer">
+        <h1 class="final animate__bounceIn"></h1>
+        <button class="restart animate__animated animate__fadeInUp">Restart</button>
+    </div>
+    
+    
+</body>
+</html>
